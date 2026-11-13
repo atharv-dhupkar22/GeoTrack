@@ -1,0 +1,34 @@
+
+.geofences-page {
+  min-height: 100vh;
+  padding: 28px 36px;
+  background: #f5f7fb;
+}
+
+.geofences-page-header {
+  margin-bottom: 25px;
+}
+
+.back-dashboard-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  border: 1px solid #e3e9f2;
+  border-radius: 8px;
+  color: #50617a;
+  background: #fff;
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.back-dashboard-link:hover {
+  color: #3979e9;
+  background: #f7f9ff;
+}
+
+@media (max-width: 560px) {
+  .geofences-page {
+    padding: 20px 14px;
+  }
+}
